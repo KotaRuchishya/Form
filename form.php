@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);
-    $ma=FALSE;
+    //$ma=FALSE;
        $ma= mail($from,$subject2,$message2,$headers2); 
     if($ma)
     echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
