@@ -7,7 +7,8 @@ $from=$_POST["email"];
 $msg=$_POST["msg"];
 $headers = "From: $from";
 
-if(mail($to,$subject,$msg,$headers))
+$ma=mail($to,$subject,$msg,$headers);
+  if($ma)
 echo "Email successfully sent.";
   else
   {
