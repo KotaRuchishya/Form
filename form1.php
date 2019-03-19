@@ -24,7 +24,7 @@ $headers .= 'Cc:'. $email2 . "rn"; // Carbon copy to Sender
 $message = wordwrap($message, 70);
 // Send Mail By PHP Mail Function
 mail("richaixatis@gmail.com", $subject, $message, $headers);
-echo "Your mail has been sent successfuly ! Thank you for your time";
+echo "Your mail has been sent successfully! Thank you for your time!";
 }
 }
 }
