@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Form </title>
+<link href="form1.css" rel="stylesheet">
+</head>
+<!-- Body Starts Here -->
+<body>
+<div class="container">
+<!-- Feedback Form Starts Here -->
+<div id="feedback">
+<!-- Heading Of The Form -->
+<div class="head">
+<h3> Form</h3>
+<p>Enter your details !</p>
+</div>
+<!-- Feedback Form -->
+<form action="#" id="form" method="post" name="form">
+<input name="vfname" placeholder="First Name" type="text" value="">
+<input name="vemail" placeholder="Your Email" type="text" value="">
+<input name="vlname" placeholder="Last Name" type="text" value="">
+<input name="vphone" placeholder="Contact Number" type="text" value="">
+<label>Biography (Not more than 150 words)</label>
+<textarea name="msg" placeholder="Type your text here..."></textarea>
+<input id="send" name="submit" type="submit" value="Send information">
+</form>
+<h3><?php include "form1.php"?></h3>
+</div>
+<!-- Feedback Form Ends Here -->
+</div>
+</body>
+<!-- Body Ends Here -->
+</html>
